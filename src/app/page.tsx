@@ -8,7 +8,6 @@ import Link from 'next/link';
 export default async function Home() {
     const data: GetPokemonsQuery = await graphqlClient.request(GET_POKEMONS, {
         first: 151,
-        offset: 1,
     });
 
     return (
