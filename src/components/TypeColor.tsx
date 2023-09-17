@@ -31,7 +31,7 @@ export const TypeColor = ({ type }: { type: string | null }) => {
             break;
         case 'Normal':
             bgColor = 'bg-gray-500';
-            textColor = textBlack;
+            textColor = textWhite;
             break;
         case 'Electric':
             bgColor = 'bg-yellow-400';

@@ -15,7 +15,7 @@ export default async function Home() {
             <div className='flex h-20 bg-slate-600 justify-center items-center'>
                 <Search />
             </div>
-            <div className='grid lg:grid-cols-4 gap-6 p-14 md:grid-cols-3 sm:grid-cols-1 bg-slate-100'>
+            <div className='grid xl:grid-cols-4 gap-6 p-4 md:p-10 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 bg-slate-100'>
                 {data?.pokemons?.map((pokemon) => (
                     <Link key={pokemon?.id} href={`/search?q=${pokemon?.name}`}>
                         <Card

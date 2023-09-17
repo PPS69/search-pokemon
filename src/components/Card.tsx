@@ -25,6 +25,7 @@ export const Card = ({ src, name, number, types, hover }: Card) => {
                 alt={name}
                 width={300}
                 height={300}
+                priority={false}
             />
             <div className='group-hover:bg-slate-500 flex flex-col items-center justify-center px-6 py-4 bg-slate-400'>
                 <div className='font-bold text-xl mb-2'>
